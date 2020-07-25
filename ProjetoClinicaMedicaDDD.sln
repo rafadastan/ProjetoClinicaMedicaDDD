@@ -3,9 +3,36 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.29728.190
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1. Presentation", "1. Presentation", "{863262D1-0FF9-4730-8D55-60922857B228}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2. Presentation", "2. Presentation", "{33ECE3C5-7AA0-4201-81FA-E9CA8DEEFB9D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3. Domain", "3. Domain", "{79F1630B-A581-4840-B056-06E80E1B4503}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4. Infraestructure", "4. Infraestructure", "{61ECF41E-231D-4D1B-8D82-5F2DE109B79A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "5. CrossCutting", "5. CrossCutting", "{0FBD580C-87FC-4BCB-9B5E-790EA76DDA41}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "6. Test", "6. Test", "{EC20AC48-5ACC-4C7B-AB42-9E456E968541}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProjetoClinicaMedica.Domain", "ProjetoClinicaMedicaDDD.Domain\ProjetoClinicaMedica.Domain.csproj", "{7CB15A9B-4A16-41CC-A7A8-FC5550C3ACBD}"
+EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7CB15A9B-4A16-41CC-A7A8-FC5550C3ACBD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7CB15A9B-4A16-41CC-A7A8-FC5550C3ACBD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7CB15A9B-4A16-41CC-A7A8-FC5550C3ACBD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7CB15A9B-4A16-41CC-A7A8-FC5550C3ACBD}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{7CB15A9B-4A16-41CC-A7A8-FC5550C3ACBD} = {79F1630B-A581-4840-B056-06E80E1B4503}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {8599DC95-E8B3-416F-BDF3-C39C7D1DD332}
